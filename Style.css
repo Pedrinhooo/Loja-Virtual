@@ -1,5 +1,6 @@
 body{
     background-color: azure;
+    
 }
 
 #corpo{
@@ -19,18 +20,53 @@ header h1{
     display: flex;
     justify-content: center;
     color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
 
 }
+
 header h4{
     display: flex;
     justify-content: center;
     color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
 }
 
+nav{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,35,64,1) 44%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: end;
+    text-align: right;
+
+}
+
+nav a{
+    color: aliceblue;
+    padding: 14px 20px;
+    text-align: center;
+    font-size:larger;
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav a:hover{
+    background-color: azure;
+    color: black;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+li a{
+    font-family:'Courier New', Courier, monospace;
+}
 
 footer{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,35,64,1) 44%, rgba(0,212,255,1) 100%);
+
+}
+
+#centro{
 
 }
 
