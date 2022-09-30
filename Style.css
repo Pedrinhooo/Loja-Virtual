@@ -60,6 +60,15 @@ li a{
     font-family:'Courier New', Courier, monospace;
 }
 
+#avaliacao{
+    width: 50%;
+    
+}
+
+.bootstrap-carrosel{
+    justify-content: center;
+}
+
 footer{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,35,64,1) 44%, rgba(0,212,255,1) 100%);
@@ -67,10 +76,12 @@ footer{
 }
 
 #centro{
-
+    width: 70%;
+    background-color:cornsilk;
 }
 
 #esquerda{
     justify-content: flex-start;
     width: 20%;
 }
+
