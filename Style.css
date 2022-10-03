@@ -60,13 +60,19 @@ li a{
     font-family:'Courier New', Courier, monospace;
 }
 
+#foto-pagina-inicial{
+ width: 100%;
+ 
+}
+
 #avaliacao{
-    width: 50%;
+    width: 100%;
     
 }
 
 .bootstrap-carrosel{
     justify-content: center;
+    padding-left: 40%;
 }
 
 footer{
@@ -77,7 +83,7 @@ footer{
 
 #centro{
     width: 70%;
-    background-color:cornsilk;
+    background-color:white;
 }
 
 #esquerda{
@@ -85,3 +91,11 @@ footer{
     width: 20%;
 }
 
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h2{
+    color: aliceblue;
+}
