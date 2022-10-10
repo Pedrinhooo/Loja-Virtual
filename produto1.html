@@ -32,7 +32,69 @@
 
     <section id="centro">
 
-      
+      <div>
+
+      <h3>Carrinho</h3>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#Pagamento" style="color: black;">Pagamento</a></li>
+        <li><a data-toggle="tab" href="#Opinioes" style="color: black;">Comentários</a></li>
+      </ul>
+
+      </div>
+
+      <div class="tab-content">
+
+        <div id="Pagamento" class="tab-pane fade in active">
+          <div id="imagem_pagamento1"><img class="itens" src="https://i.pinimg.com/originals/d4/16/53/d41653accb63338369e2b8757a68fe65.jpg" alt=""></div>
+          <div id="descricao" class="panel panel-info">
+            <div class="panel-heading">Tatuagem colorida</div>
+          
+            <div class="panel-body">
+              Tatuagem de tamanho médio/grande ou colorida
+            </div>
+          </div>
+
+          <div>
+            <section style="display: flex;">
+              <h3>Preço R$</h3>
+              <div id="resB" style="background-color: #adabab00; margin: 16px 0px; padding: 0px 4px; font-size: 25px;">60,00</div>
+          </section>
+              
+          <section style= "display:flex; font-size: 15px; margin-left: 34px;">
+              <p>Quantidade:</p>
+              <select name="" id="qtdB" style="margin-left: 20px; height: 20px;">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="2">3</option>
+
+              </select>
+              <p> Tipo:</p>
+              <select name="" id="qtdB" style="margin-left: 20px; height: 20px;">
+                  <option value="1">Preto e Branco</option>
+                  <option value="2">Colorida</option>
+
+              </select>
+          </section>
+                      
+          <section>
+              <div id="calcularB" onclick="clicarB()" onmouseout="sairB()">Calcular</div>
+          </section>
+          </div>
+
+        </div>
+
+        
+        <div id="Opinioes" class="tab-pane fade">
+          <div class="panel panel-info">
+            <div class="panel-heading">Nome_aleatorio</div>
+          
+            <div class="panel-body">
+              Achei caro as tatuagens coloridas, porém tem uma qualidade enorme!
+            </div>
+          </div>
+        </div>
+
+      </div>
 
     </section>
 
