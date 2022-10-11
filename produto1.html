@@ -56,20 +56,22 @@
 
           <div>
             <section style="display: flex;">
-              <h3>Preço R$</h3>
-              <div id="resB" style="background-color: #adabab00; margin: 16px 0px; padding: 0px 4px; font-size: 25px;">60,00</div>
+              <h3>Preço R$:<var id="total">0</var>,00</h3>
+              
           </section>
               
           <section style= "display:flex; font-size: 15px; margin-left: 34px;">
               <p>Quantidade:</p>
-              <select name="" id="qtdB" style="margin-left: 20px; height: 20px;">
+              <select name="" id="qtdtt" onChange="preco()" style="margin-left: 20px; height: 20px;">
+                  <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
-                  <option value="2">3</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
 
               </select>
               <p> Tipo:</p>
-              <select name="" id="qtdB" style="margin-left: 20px; height: 20px;">
+              <select name="" id="tipott" onChange="preco()" style="margin-left: 20px; height: 20px;">
                   <option value="1">Preto e Branco</option>
                   <option value="2">Colorida</option>
 
@@ -77,7 +79,7 @@
           </section>
                       
           <section>
-              <div id="calcularB" onclick="clicarB()" onmouseout="sairB()">Calcular</div>
+              <button class="btn btn-info" onClick="addProduto()">Adicionar ao carrinho</button>
           </section>
           </div>
 
@@ -109,7 +111,7 @@
       <h2>FOOTER</h2>
     </footer>
 
+    <script src="script.js"></script>
+
 </body>
 
-
-</body>
